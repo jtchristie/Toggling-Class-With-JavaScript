@@ -77,4 +77,4 @@ In a future lesson we will use for loops and if statements to omit the second pa
 
 toggleClassOnClick(exampleDivNew,exampleDivNew);
 
-toggleClassOnClick(exampleDiv,exampleDiv, newClass);
+toggleClassOnClick(exampleDiv,exampleDiv);
