@@ -1,0 +1,64 @@
+.ourButton {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-weight: 900;
+    margin: 20px auto;
+    letter-spacing: 0.5em;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.ourButton:hover {
+    background-color: #fff;
+    color: #000;
+}
+.ourDiv {
+    background-color: red;
+    height: 200px;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.exampleDiv {
+    background-color: red;
+}
+
+.exampleDiv.newClass {
+    background-color: blue;
+}
+
+/* 
+#4
+On line 41, create a new css rule for the div with the class of ourDiv and add another class to the selector with the name, blue-background <- this is the string we will pass as our third parameter. 
+ 
+Add the value blue or #00f to the background-color property in the new selector you've created.
+
+See example on lines 24 through 30 for help
+*/
+
+.ourDiv.triggered{
+    background-color: blue;
+}
+
+
+
+
+/* Feel free to ignore the styles below. */
+.exampleDiv {
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.exampleDiv.newClass.triggered{
+    background: red;
+}
+.exampleDiv.triggered{
+    background: blue;
+}
